@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build b_client",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "b_client.cpp",
+                "-o",
+                "b_client",
+                "-lws2_32"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by user"
+        }
+    ]
+}
